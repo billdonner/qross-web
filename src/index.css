@@ -1,0 +1,49 @@
+:root {
+  --color-primary: #3b82f6;
+  --color-primary-dark: #2563eb;
+  --color-accent: #8b5cf6;
+  --color-accent-dark: #7c3aed;
+  --color-pink: #ec4899;
+  --color-bg: #0a0a1a;
+  --color-surface: #111127;
+  --color-surface-hover: #1a1a3a;
+  --color-text: #e2e8f0;
+  --color-text-muted: #94a3b8;
+  --color-border: #1e293b;
+  --font-body: 'Space Grotesk', system-ui, -apple-system, sans-serif;
+  --radius: 12px;
+  --radius-lg: 20px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-body);
+  background: var(--color-bg);
+  color: var(--color-text);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  color: var(--color-primary);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+a:hover {
+  color: var(--color-accent);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
